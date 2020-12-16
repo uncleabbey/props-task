@@ -1,0 +1,55 @@
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokecard {
+  text-align: center;
+  margin: 2em;
+  padding: 1em;
+  width: 150px;
+  height: 250px;
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.pokecard > h2 {
+  color: blue;
+}
+h1 {
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color {
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+}
+.todo {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 1em;
+  margin: 1em auto;
+  width: 20%;
+  border: 2px solid blue;
+}
+.todo > span {
+  margin-left: 2em;
+}
+
+.isComplete {
+  text-decoration: line-through;
+}
+.todo:hover {
+  width: 21%;
+  border: 2px solid red;
+}
+.exercise {
+  padding: 2em;
+}
